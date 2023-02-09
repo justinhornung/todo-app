@@ -6,4 +6,5 @@ Rails.application.routes.draw do
 
   # Justin was here.
   # hey
+  resources :categories
 end
