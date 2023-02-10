@@ -13,3 +13,10 @@ Category.create(name: "Garage")
 Category.create(name: "Kitchen")
 Category.create(name: "Lawn/Garden")
 Category.create(name: "Living Room")
+
+Todo.create(user_id: "1", title: "house", description: "cleaning living room", deadline: "tomorrow", completed: "no")
+Todo.create(user_id: "2", title: "house", description: "cleaning garage", deadline: "Friday", completed: "no")
+Todo.create(user_id: "2", title: "house", description: "cleaning bedroom", deadline: "Monday", completed: "Yes")
+
+User.create(name: "Peter", email: "peter@test.com", password: "password")
+User.create(name: "jay", email: "jay@test.com", password: "password")
