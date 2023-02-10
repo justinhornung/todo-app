@@ -7,6 +7,9 @@ Rails.application.routes.draw do
   # Justin was here.
   # hey
   resources :categories
+
+  resources :todos
+
   get "/signup" => "users#new"
   post "/users" => "users#create"
 
