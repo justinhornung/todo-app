@@ -32,7 +32,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_09_012451) do
     t.string "title"
     t.string "description"
     t.string "deadline"
-    t.boolean "completed", default: false
+    t.boolean "completed"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -44,4 +44,5 @@ ActiveRecord::Schema[7.0].define(version: 2023_02_09_012451) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
 end
