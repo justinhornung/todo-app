@@ -33,6 +33,7 @@ class TodosController < ApplicationController
   def update
     @todo = Todo.find_by(id: params[:id])
     @todo.update(
+      user_id: current_user.id,
       title: params[:todo][:title],
       description: params[:todo][:description],
       deadline: params[:todo][:deadline],
